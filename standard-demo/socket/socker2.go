@@ -23,7 +23,7 @@ func main() {
 	// 读取服务器的响应
 	for read {
 		count, err = con.Read(data)
-		read = err == nil
+		read = (err == nil)
 		fmt.Printf(string(data[0:count]))
 	}
 	con.Close()
