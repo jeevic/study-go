@@ -1,0 +1,64 @@
+hash: 38f2aa558c8a6fe57fcd95a60a5a34ec987d4a20f39cb6d0c760602d0e0b2e38
+updated: 2024-03-19T12:59:42.723021+08:00
+imports:
+- name: filippo.io/edwards25519
+  version: a7dfd8e4e6b456f2f0d11f0176885421029b6e3f
+  subpackages:
+  - field
+- name: github.com/go-sql-driver/mysql
+  version: d86c4527bae98ccd4e5060f72887520ce30eda5e
+- name: github.com/inconshreveable/log15
+  version: 5555550548196f43bf6dda2648158a72c416f9e7
+  subpackages:
+  - term
+- name: github.com/jinzhu/gorm
+  version: 6f4358eeb5e3df768c182ae54d90ceacff0880a8
+  subpackages:
+  - dialects/mysql
+- name: github.com/jinzhu/inflection
+  version: bbe0a3e7399f93602b520ea0cdee86bac6349b61
+- name: github.com/mattn/go-colorable
+  version: 2b733b5d5ca7f3959b874da32dd775822a35a1a2
+- name: github.com/mattn/go-isatty
+  version: a7c02353c47bc4ec6b30dc9628154ae4fe760c11
+- name: github.com/revel/config
+  version: a81c4105c36841d27e529f875b6062da7b8f986c
+- name: github.com/revel/log15
+  version: 793412a67da6f8d15fede4c38f5c66272478cb8a
+- name: github.com/revel/modules
+  version: a50f5f138880b68aef235a7c1f3f09ba56b71d45
+  subpackages:
+  - static/app/controllers
+  - static/app/model
+  - testrunner/app
+  - testrunner/app/controllers
+- name: github.com/revel/pathtree
+  version: 41257a1839e945fce74afd070e02bab2ea2c776a
+- name: github.com/revel/revel
+  version: a3d7a7c23ca885cc5036d3641ede49ce4a14ee2e
+  subpackages:
+  - logger
+  - model
+  - session
+  - testing
+  - utils
+- name: github.com/twinj/uuid
+  version: 7bbe408d339787c56ec15568c947c0959db1b275
+- name: github.com/xeonx/timeago
+  version: 56dffd42fc69fb03e73331456ad1b2f2741ea466
+- name: golang.org/x/net
+  version: 31d9683ed011ab20a0aa6ab62de563611851a2b8
+  subpackages:
+  - websocket
+- name: golang.org/x/sys
+  version: 95f07eca87d8c95e1d5fbb996ac5b216d4c2a021
+  subpackages:
+  - unix
+  - windows
+- name: gopkg.in/fsnotify/fsnotify.v1
+  version: cfc9c4f277ea6ec18de92444b31983b183deb4fb
+- name: gopkg.in/natefinch/lumberjack.v2
+  version: 4cb27fcfbb0f35cb48c542c5ea80b7c1d18933d0
+- name: gopkg.in/stack.v0
+  version: 9b43fcefddd0178abdabf4d484ab0d695d0011db
+testImports: []
